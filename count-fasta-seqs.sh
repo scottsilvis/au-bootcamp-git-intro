@@ -91,14 +91,12 @@
 # Good luck!
 #
 # ADD YOUR CODE BELOW:
-v1=0
-v2=0
 total=0
-for filepath in "$@"
+for file in "$@"
 do
-   v1=$(grep ">" "$filepath" | wc -l)
-   v2=$(basename "$filepath")
-   total=$(expr $total + $v1)
-   printf "$v1 $v2 \n"
+    v1=$(grep ">" "$file" | wc -l)
+    v2=$(basename "$file")
+    total=$(expr $total + $v1)
+    echo $v1 $v2
 done
-printf "$total \n"
+echo $total
