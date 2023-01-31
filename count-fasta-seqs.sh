@@ -101,4 +101,6 @@ do
 done
 echo $total
 
-#CTracy comment: Great job! As this assignment was originally designed to be collaborative, go ahead and reply below that you received this comment to practice pushing/pulling. 
+#CTracy comment: Great job! As this assignment was originally designed to be collaborative, go ahead and reply below that you received this comment to practice pushing/pulling.
+
+#scottsilvis comment: comment received. 
